@@ -2,4 +2,36 @@
 
 /* 回答はここに書いてね */
 
+table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table th, table td{
+  border: solid 1px #dedede;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+th{  
+  background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+}
+
+td{
+  font-size: 16px;
+  line-height: 22px;
+}
+
+tr:nth-child(2n-1){
+  background-color: #ecf1f2;
+}
+
+tr:last-child{
+  border-top: dashed #000 2px;
+}
 /* 回答はここに書いてね */
