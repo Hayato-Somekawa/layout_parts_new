@@ -2,4 +2,93 @@
 
 /* 回答はここに書いてね */
 
+/*q7-1*/
+.clearfix:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+
+.float{
+  float:left;
+  width:225px;
+  box-sizing: border-box;
+  margin-left:50px;
+}
+
+.float:first-child{
+  margin-left: 0px;
+}
+
+
+/*q7-2*/
+.table{
+  display:table;
+}
+
+.table_cell{
+  display:table-cell;
+  width:225px;
+  vertical-align: middle;
+  padding-left:50px;
+}
+
+.table_cell:first-child{
+  padding-left:0px;
+}
+
+
+/*q7-3*/
+.sukima_del{
+  font-size:0px;
+}
+
+.inline_block{
+  display:inline-block;
+  width:225px;
+  vertical-align: middle;
+  box-sizing:border-box;
+  margin-left:50px;
+  font-size:16px;
+}
+
+.inline_block:first-child{
+  margin-left:0px; 
+}
+
+
+/*q7-4*/
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.text{
+  font-size:16px;
+  width:225px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+
+/*q7-5*/
+.kotei{
+  display:inline-block;
+  vertical-align: middle;
+  font-size:16px;
+  width: 300px; 
+}
+
+.kahen{
+  display:inline-block;
+  vertical-align: middle;
+  width:100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing:border-box;
+  font-size:16px;
+}
+
+
 /* 回答はここに書いてね */
