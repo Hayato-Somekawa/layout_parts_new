@@ -100,9 +100,66 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
             <form class="form">
-              <h1 class="form_title">
+              <h1 class="form_title">Form Exercise</h1>
+              <div class="clearfix">
+                <div class="leftside">
+                  <div class="pii">
+                    
+                    <div class="itembox clearfix">
+                      <label class="item_title">名前<span>*</span></label>
+                      <input class="input_item" type="text" name="name" required>
+                    </div>
+                    
+                    <div class="itembox clearfix">
+                      <label class="item_title">性別</label>
+                      <div class="input_item">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male" >男性</label>
+                        <input type="radio" id="famale" name="gender" value="famale">
+                        <label for="famale">女性</label>
+                      </div>
+                    </div>
+                    
+                    <div class="itembox clearfix">
+                      <label class="item_title">出身</label>
+                      <div class="marking">
+                        <select class="input_item" name="hometwon">
+                          <option value="tokyo">東京</option>
+                          <option value="saitama">埼玉</option>
+                          <option value="tiba">千葉</option>
+                          <option value="kanagawa">神奈川</option>
+                        </select>
+                      </div>
+                    </div>
 
-              </h1>
+                    <div class="itembox clearfix">
+                      <label class="item_title">Eメール<span>*</span></label>
+                      <input class="input_item" type="email" name="email" required placeholder="ex) hoge@gmail.com">
+                    </div>
+
+                    <div class="itembox clearfix">
+                      <label class="item_title">電話番号</label>
+                      <input class="input_item" type="tel" name="tel" placeholder="ex) 08012345678">
+                    </div>
+
+                    <div class="itembox clearfix">
+                      <div class="input_item right">
+                        <input type="checkbox" id="check" name="twenty" value="ture">
+                        <label for="check">20歳以上です</label>
+                      </div>
+                    </div>  
+                  
+                  </div>
+                  
+                  <div class="itembox right">
+                    <button type="submit">送信</button>
+                  </div>
+
+                </div>
+                
+                <textarea name="massage" placeholder="何かあれば入力してください"></textarea>
+
+              </div>
             </form>
           </div>
           <!-- 回答はここに書いてね -->
