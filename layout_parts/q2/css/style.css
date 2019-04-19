@@ -17,13 +17,13 @@
   word-break: break-all;
 }
 
-.thumb_1{
+.thumb_left{
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
 }
 
-.thumb_2{
+.thumb_right{
   margin-left: 20px;
   margin-bottom: 10px;
   float: right;
