@@ -31,7 +31,7 @@
   text-align:center;
   vertical-align:middle; 
 }
-.q6_2_text1{
+.q6_2_table_text{
   display:inline-block;
   background-color:#fff;
   Padding:10px;
@@ -43,7 +43,7 @@
   align-items:center;
   justify-content:center;
 }
-.q6_2_text2{
+.q6_2_flex_text{
   background-color:#fff;
   Padding:10px;
 }

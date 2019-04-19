@@ -9,7 +9,7 @@
   display: inline-block;
   margin-left: 10px;
 }
-.s{
+.small{
   height: 26px;
   line-height: 26px;
   font-size: 16px;
@@ -17,7 +17,7 @@
   border-radius: 3px;
 }
 
-.m{
+.middle{
   height: 32px;
   line-height: 32px;
   font-size: 20px;
@@ -25,7 +25,7 @@
   border-radius: 5px;
 }
 
-.l{
+.large{
   height: 38px;
   line-height: 38px;
   font-size: 24px;
@@ -34,20 +34,20 @@
 }
 
 
-.co{
+.common{
   background-color: #00bcd4;
   margin-left: 0px; 
 }
 
-.er{
+.error{
   background-color: #ff4081;
 }
 
-.di{
+.disabled{
   background-color: #e5e5e5;
 }
 
-.sh{
+.shadow{
   background-color: #fff;
   color: #222;
   box-shadow: 0 1px 6px rgba(0,0,0,.12),
@@ -110,7 +110,7 @@
   width: 180px;
 }
 
-span{
+.komezirusi{
   color: #f00;
 }
 
@@ -127,10 +127,7 @@ input, button, textarea, select{
   outline: none;
 }
 /*入力デザイン変更*/
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-select, textarea{
+.name,.email,.tel,.hometwon,.massage{
   padding: 5px;
   border-radius: 3px;
   background-color: #fff;
@@ -139,14 +136,14 @@ select, textarea{
   box-sizing: border-box;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus,
-textarea:focus{
+.name:focus,
+.email:focus,
+.tel:focus,
+.massage:focus{
   box-shadow: 0 0 7px #00bcd4;
 }
 
-textarea{
+.massage{
   float: right;
   width: 380px;
   height: 203px;
@@ -155,18 +152,18 @@ textarea{
 }
 
 /*ラジオボタン*/
-input[type="radio"]{
+.gender_button{
   display: none;
 }
 
-input[type="radio"] + label{
+.gender_button + label{
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
   cursor: pointer;
 }
 
-input[type="radio"] + label::before{
+.gender_button + label::before{
   position: absolute;
   top:50%;
   left:0;
@@ -179,7 +176,7 @@ input[type="radio"] + label::before{
   content: '';
 }
 
-input[type="radio"]:checked + label::after{
+.gender_button:checked + label::after{
   position: absolute;
   top:50%;
   left:4px;
@@ -192,7 +189,7 @@ input[type="radio"]:checked + label::after{
 }
 
 /*選択項目欄マーク追加*/
-select{
+.hometwon{
   cursor: pointer;
 }
 .marking{
@@ -216,17 +213,17 @@ select{
   text-align: right;
 }
 
-input[type="checkbox"]{
+.adult_check{
   display: none;
 }
 
-input[type="checkbox"] + label{
+.adult_check + label{
   position: relative;
   display: inline-block;
   padding-left: 24px; 
 }
 
-input[type="checkbox"] + label::before{
+.adult_check + label::before{
   position: absolute;
   top: 50%;
   left: 0;
@@ -238,7 +235,7 @@ input[type="checkbox"] + label::before{
   content:'';
 }
 
-input[type="checkbox"]:checked + label::after{
+.adult_check:checked + label::after{
   position: absolute;
   top: 50%;
   left: 6px;
@@ -252,7 +249,7 @@ input[type="checkbox"]:checked + label::after{
 }
 
 /*送信ボタン*/
-button[type=submit]{
+.submit{
   padding: 0 10px;
   border-radius: 5px;
   font-size: 16px;
@@ -262,7 +259,7 @@ button[type=submit]{
   cursor: pointer;
 }
 
-button[type=submit]:active{
+.submit:active{
   background-color: #fff;
   color: #00bcd4;
 }
